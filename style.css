@@ -1,4 +1,36 @@
-/*Обнуление*/
+@font-face {
+  font-family: 'Avenir LT 55 Roman';
+  src: url('fonts/AvenirLT-Roman.eot');
+  src: local('Avenir LT 55 Roman'), local('AvenirLT-Roman'),
+  url('fonts/AvenirLT-Roman.eot?#iefix') format('embedded-opentype'),
+  url('fonts/AvenirLT-Roman.woff') format('woff'),
+  url('fonts/AvenirLT-Roman.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir LT 65';
+  src: url('fonts/AvenirLT-Medium.eot');
+  src: local('Avenir LT 65 Medium'), local('AvenirLT-Medium'),
+  url('fonts/AvenirLT-Medium.eot?#iefix') format('embedded-opentype'),
+  url('fonts/AvenirLT-Medium.woff') format('woff'),
+  url('fonts/AvenirLT-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir LT 35';
+  src: url('fonts/AvenirLT-Light.eot');
+  src: local('Avenir LT 35 Light'), local('AvenirLT-Light'),
+  url('fonts/AvenirLT-Light.eot?#iefix') format('embedded-opentype'),
+  url('fonts/AvenirLT-Light.woff') format('woff'),
+  url('fonts/AvenirLT-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+/*Null-styles*/
 * {
   padding: 0;
   margin: 0;
@@ -70,5 +102,137 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: 400;
 }
-
 /*--------------------*/
+.content {
+  max-width: 1920px;
+}
+
+.header {
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  height: 54px;
+  background-color: #31415B;
+  padding-top: 18px;
+}
+
+.header-top__tel {
+  color: white;
+  font-family: "Avenir LT 35", serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  margin-left: 100px;
+}
+
+.promo {
+  font-family: "Avenir LT 65", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.promo__link {
+  color: #849EBD;
+}
+
+.header-top__faq {
+  font-family: "Avenir LT 55 Roman", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-right: 95px;
+}
+
+
+.header-bottom {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+}
+
+.header-bottom__logo {
+}
+
+.header-bottom__image {
+}
+
+.header-bottom__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-bottom__link {
+  padding-right: 15px;
+  margin-left: 15px;
+  font-family: "Avenir LT 55 Roman", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #3C2B23;
+  border-right: black 1px solid;
+}
+.header-bottom__link:last-child{
+  border-right: none;
+}
+.search {
+}
+
+.search__form {
+
+}
+
+.search__input {
+  border: #A78C70 2px solid;
+  height: 40px;
+  font-family: "Avenir LT 55 Roman", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  padding: 1rem;
+  color: rgba(167, 140, 112, 0.6);
+}
+.search__icon {
+
+}
+.header-shop-cart {
+  margin-right: 90px;
+  position: relative;
+}
+
+.header-shop-cart__img {
+
+}
+
+.header-shop-cart__qty {
+  height: 19px;
+  width: 19px;
+  text-align: center;
+  padding-top: 3px;
+  border-radius: 50%;
+  position: absolute;
+  left: 14px;
+  display: inline-block;
+  color: #fff;
+  background-color: #000000;
+}
+
+.main {
+}
+
+.footer {
+}
