@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .promo {
   font-family: "Avenir LT 65", serif;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
@@ -164,6 +164,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-bottom__logo {
+  margin-left: 80px;
 }
 
 .header-bottom__image {
@@ -172,27 +173,88 @@ h1, h2, h3, h4, h5, h6 {
 .header-bottom__nav {
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .header-bottom__link {
-  padding-right: 15px;
-  margin-left: 15px;
+  display: block;
+  height: 150px;
+  padding-right: 12px;
+  margin-left: 12px;
   font-family: "Avenir LT 55 Roman", serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 19px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 120px;
   letter-spacing: 0.05em;
   color: #3C2B23;
-  border-right: black 1px solid;
+
 }
-.header-bottom__link:last-child{
-  border-right: none;
+
+.dropdown {
+  float: left;
+  overflow: hidden;
 }
+.dropdown .drop {
+  padding: 14px 16px;
+  background-color: inherit;
+
+}
+.dropdown:hover .drop {
+  border-bottom: black 2px solid;
+
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 120px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+
+
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  font-family: "Avenir LT 55 Roman", serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+
+}
+.dropdown-content__box {
+  display: flex;
+}
+.dropdown-content__img {
+  height: 50px;
+  width: 80px;
+  margin: 10px;
+  padding: 2px;
+  border: #A78C70 1px solid;
+}
+
+.dropdown-content__box:hover {
+  background-color: #eeecec;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 .search {
 }
 
 .search__form {
-
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
 }
 
 .search__input {
@@ -207,7 +269,14 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(167, 140, 112, 0.6);
 }
 .search__icon {
-
+  display: inline-block;
+  position: absolute;
+  right: 120px;
+  top: 9px
+}
+.ion-icon {
+  font-size: 20px;
+  color: rgba(167, 140, 112, 0.6);
 }
 .header-shop-cart {
   margin-right: 90px;
