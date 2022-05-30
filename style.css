@@ -30,6 +30,7 @@
   font-weight: 300;
   font-style: normal;
 }
+
 /*Null-styles*/
 * {
   padding: 0;
@@ -102,10 +103,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: 400;
 }
+
 /*--------------------*/
 .content {
   font-family: "Avenir LT 55 Roman", serif;
   max-width: 1920px;
+
 }
 
 .header {
@@ -139,6 +142,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   color: #fff;
 }
+
 .promo__link {
   color: #849EBD;
 }
@@ -161,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .header-bottom__logo {
@@ -192,29 +196,34 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   overflow: hidden;
 }
+
 .dropdown .drop {
   padding: 14px 16px;
   background-color: inherit;
 
 }
+
 .dropdown:hover .drop {
   border-bottom: black 2px solid;
 
 }
+
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #fff;
   min-width: 120px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
 
 
 }
+
 .header-bottom__line {
   margin-top: 64px;
   font-size: 22px;
 }
+
 .dropdown-content a {
   float: none;
   color: black;
@@ -228,9 +237,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 20px;
 
 }
+
 .dropdown-content__box {
   display: flex;
 }
+
 .dropdown-content__img {
   height: 50px;
   width: 80px;
@@ -265,16 +276,19 @@ h1, h2, h3, h4, h5, h6 {
   padding: 1rem;
   color: rgba(167, 140, 112, 0.6);
 }
+
 .search__icon {
   display: inline-block;
   position: absolute;
   right: 120px;
   top: 9px
 }
+
 .ion-icon {
   font-size: 20px;
   color: rgba(167, 140, 112, 0.6);
 }
+
 .header-shop-cart {
   margin-right: 90px;
   position: relative;
@@ -295,15 +309,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .main {
 }
+
 .top {
   display: flex;
 }
+
 .summer-sale {
   position: relative;
   height: 740px;
   width: 615px;
   background: url("img/image-sale.png");
 }
+
 .summer-sale__button {
   background-color: #3B2A22;
   position: absolute;
@@ -319,11 +336,13 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 150px;
   right: 132px;
 }
+
 .top__pic {
   background: url("img/photo.png") no-repeat;
   width: 1307px;
   height: 740px;
 }
+
 .about-company {
   display: flex;
   justify-content: space-between;
@@ -331,18 +350,21 @@ h1, h2, h3, h4, h5, h6 {
   height: 318px;
   padding: 0 145px;
 }
+
 .content-block {
-  margin:53px 0 40px 0;
+  margin: 53px 0 40px 0;
   width: 340px;
   color: #3C2B23;
   justify-content: center;
 }
+
 .content-block__pic {
   margin: 0 auto 30px;
   display: block;
   width: 60px;
   height: 60px;
 }
+
 .content-block__title {
   font-family: "Avenir LT 65", serif;
   font-weight: 600;
@@ -352,6 +374,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.02em;
   margin-bottom: 28px;
 }
+
 .content-block__desc {
   font-family: "Avenir LT 35", serif;
   font-weight: 300;
@@ -360,9 +383,119 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   letter-spacing: 0.02em;
 }
-.royal-therapy {
+
+.royal-therapy-bg {
   background: url("img/bg.png");
-  height: 800px;
+  height: 1035px;
 }
+
+.royal-therapy-main {
+  display: flex;
+  padding-top: 106px;
+  margin-bottom: 40px;
+}
+
+.royal-therapy-main__logo {
+  padding-top: 160px;
+
+}
+
+.royal-therapy {
+  position: relative;
+  background: url("img/royal-therapy-bg.png");
+  height: 546px;
+  width: 1229px;
+  box-shadow: 0 4px 6px 3px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.royal-therapy__crown {
+
+  position: absolute;
+  top: 80px;
+  left: 46%;
+  right: 46%;
+}
+
+.royal-therapy__crown img {
+  height: 43px;
+}
+
+.royal-therapy__title {
+  font-family: "Times New Roman", sans-serif;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 137.3%;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-top: 145px;
+  color: black;
+  opacity: 0.75;
+  margin-bottom: 10px;
+}
+
+.royal-therapy__desc {
+  font-size: 32px;
+  letter-spacing: 0.12em;
+  opacity: 0.75;
+  margin-bottom: 35px;
+}
+
+.royal-therapy__items {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 150px;
+}
+
+.royal-therapy__item-pic {
+  margin-bottom: 18px;
+}
+
+.royal-therapy__item-text {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  opacity: 0.75;
+}
+
+.royal-therapy-statistic {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 350px;
+
+}
+
+.statistic-item {
+  text-align: center;
+}
+
+.statistic-item__title {
+  color: #AF8E6A;
+  font-size: 44px;
+  margin-bottom: 22px;
+
+}
+
+.statistic-item__desc {
+  font-size: 22px;
+  letter-spacing: 0.12em;
+  opacity: 0.75;
+}
+
+.statistic-line {
+  height: 80px;
+  border: #9b8f81 1px solid;
+  opacity: 0.6;
+}
+
+.statistic-line-bottom {
+  margin: 60px auto 0;
+  width: 1260px;
+  border: #AF8E6A 2px solid;
+
+}
+
 .footer {
 }
