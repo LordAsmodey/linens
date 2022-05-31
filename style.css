@@ -352,7 +352,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content-block {
-  margin: 53px 0 40px 0;
+  margin: 43px 0 40px 0;
   width: 340px;
   color: #3C2B23;
   justify-content: center;
@@ -366,13 +366,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content-block__title {
+  height: 60px;
   font-family: "Avenir LT 65", serif;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 137.3%;
   text-align: center;
-  letter-spacing: 0.02em;
-  margin-bottom: 28px;
+  letter-spacing: 0.05em;
+  margin-bottom: 5%;
 }
 
 .content-block__desc {
@@ -496,6 +497,48 @@ h1, h2, h3, h4, h5, h6 {
   border: #AF8E6A 2px solid;
 
 }
+.magazines {
+  background-color: #A78C70;
+  height: 305px;
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  padding: 0 110px;
+}
+.magazines__item {
+  margin-top: 85px;
+  justify-content: center;
+  text-align: center;
+  width: 270px;
+}
+.magazines__title {
+  margin-bottom: 34px;
+}
+.magazines__images {
+  height: 40px;
+}
+.magazines_desc {
+  font-size: 21px;
+  line-height: 180%;
+}
+.products {
+  background: url("img/bg.png") center;
+  height: 250px;
+}
+.products {
+  padding-top: 102px;
+  display: flex;
+  justify-content: center;
+}
 
+.products__item {
+  margin: 17px 10px 0;
+  font-size: 30px;
+}
+.products__title {
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-weight: 500;
+  font-size: 57px;
+}
 .footer {
 }
