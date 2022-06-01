@@ -275,6 +275,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.05em;
   padding: 1rem;
   color: rgba(167, 140, 112, 0.6);
+
 }
 
 .search__icon {
@@ -497,6 +498,7 @@ h1, h2, h3, h4, h5, h6 {
   border: #AF8E6A 2px solid;
 
 }
+
 .magazines {
   background-color: #A78C70;
   height: 305px;
@@ -505,26 +507,32 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
   padding: 0 110px;
 }
+
 .magazines__item {
   margin-top: 85px;
   justify-content: center;
   text-align: center;
   width: 270px;
 }
+
 .magazines__title {
   margin-bottom: 34px;
 }
+
 .magazines__images {
   height: 40px;
 }
+
 .magazines_desc {
   font-size: 21px;
   line-height: 180%;
 }
+
 .products {
   background: url("img/bg.png") center;
   height: 250px;
 }
+
 .products {
   padding-top: 102px;
   display: flex;
@@ -535,10 +543,168 @@ h1, h2, h3, h4, h5, h6 {
   margin: 17px 10px 0;
   font-size: 30px;
 }
+
 .products__title {
   font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
   font-weight: 500;
   font-size: 57px;
 }
+
+.pillows {
+  padding-top: 53px;
+  background-color: rgba(206, 176, 147, 0.25);
+  height: 1127px;
+}
+
+.pillows__decor {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.pillows__decor img {
+  height: 250px;
+}
+
+.pillows__button {
+  display: inline-block;
+  height: 58px;
+  width: 330px;
+  background-color: #A68C71;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 58px;
+  border-radius: 15px;
+  position: absolute;
+  top: 97px;
+}
+
+.pillows-block {
+  display: flex;
+  padding: 0 230px;
+}
+
+.pillows-block__item {
+  position: relative;
+  font-family: "Times New Roman", sans-serif;
+  font-weight: 800;
+  margin: 40px auto;
+  background-color: #fff;
+  height: 435px;
+  width: 445px;
+  border: #A78C70 1px solid;
+}
+
+.pillows-block__price-rating {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 20px 0;
+  font-size: 20px;
+}
+
+.pillows-block__text {
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #949494;
+}
+
+.pillows-block__rating {
+  color: #e5ae75;
+}
+
+.pillows-block__img {
+  height: 230px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.pillows-block__img img {
+  height: 230px;
+}
+
+.pillows-block__desc {
+  text-align: center;
+  font-size: 37px;
+  font-weight: 400;
+  opacity: 0.6;
+  margin-top: 25px;
+}
+
+.pillows-block__info {
+  display: inline-block;
+  height: 45px;
+  width: 220px;
+  background-color: #3B2A22;
+  color: #d9d9d9;
+  text-align: center;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 40px;
+  position: absolute;
+  bottom: -25px;
+  right: 110px;
+}
+
 .footer {
+  padding: 95px 80px 0;
+  height: 705px;
+  background-color: #5C473D;
+  display: flex;
+  justify-content: space-between;
+
+}
+.footer-logo__pic {
+  display: block;
+  margin-bottom: 18px;
+}
+
+.footer-logo__txt {
+  display: inline-block;
+  color: #fff;
+  Font-family: "Avenir LT 35", serif;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 0.08em;
+}
+.footer__title {
+  display: inline-block;
+  font-weight: 400;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 117%;
+  border-bottom: white 2px solid;
+  color: #fff;
+  margin-bottom: 24px;
+  opacity: 0.8;
+}
+
+.footer__link {
+  margin-bottom: 30px;
+  display: block;
+  color: #fff;
+  font-size: 19px;
+  opacity: 0.8;
+}
+
+.footer-form {
+
+}
+.footer-form input {
+  margin-top: 12px;
+  height: 38px;
+  width: 260px;
+  display: block;
+  padding: 1rem;
+}
+.footer-form__button {
+  background-color: #A78C70;
+  color: #fff;
+
+}
+.footer__social-ico img {
+  margin-right: 15px;
 }
