@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #fff;
   margin-right: 95px;
 }
 
@@ -305,7 +305,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 14px;
   display: inline-block;
   color: #fff;
-  background-color: #000000;
+  background-color: #000;
 }
 
 .main {
